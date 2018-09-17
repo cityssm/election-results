@@ -2,7 +2,7 @@
 
 On election night, our in-house election system will regularly export
 *unofficial election results* as flat data files to our web servers.
-The files arrive are then converted to a web friendly format.
+The files are then converted to a web friendly format.
 The format of choice is JSON.
 
 ## Guidelines for Usage
@@ -22,7 +22,9 @@ We do ask that you follow some usage guidelines.
 
 ## Where's the file?
 
-**Coming soon.**
+Real-time election night results can be found at the following address.
+
+http://voter.saultstemarie.ca/results/resultsJSON.asp
 
 ## Understanding the JSON
 
