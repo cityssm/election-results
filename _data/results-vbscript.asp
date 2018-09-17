@@ -1,0 +1,100 @@
+<%
+  response.expires = 1
+  response.contentType = "application/json"
+
+  ' down properties
+  ' if a ward is having problems like a power outage, set the corresponding flag to true
+  ' doing so will disable the release of results
+
+  ward1_down = false
+  ward2_down = false
+  ward3_down = false
+  ward4_down = false
+  ward5_down = false
+
+  city_down = cbool(ward1_down or ward2_down or ward3_down or word4_down or ward5_down)
+
+  ' number of polls'
+
+  ward1_polls = 49
+  ward2_polls = 41
+  ward3_polls = 42
+  ward4_polls = 40
+  ward5_polls = 34
+
+  city_polls = ward1_polls + ward2_polls + ward3_polls + ward4_polls + ward5_polls
+
+  ' number of voters'
+
+  city_voters = 54000
+
+  '---'
+
+  dim dataFileA
+	set dataFileA = getDictionary("EL570D1O")
+
+	dim dataFileB
+	set dataFileB = getDictionary("EL580D1O")
+
+  function getDictionary (fileName)
+
+    fileName = "_data/" & fileName ' file to read
+    Const ForReading = 1
+    Const TristateUseDefault = -2, TristateTrue = -1, TristateFalse = 0
+
+    ' Create a filesystem object
+    Dim FSO
+    set FSO = server.createObject("Scripting.FileSystemObject")
+
+    ' Map the logical path to the physical system path
+    Dim Filepath
+    Filepath = Server.MapPath(Filename)
+
+    Dim objDictionary
+    Set objDictionary = CreateObject("Scripting.Dictionary")
+
+    if FSO.FileExists(Filepath) Then
+
+      ' Get a handle to the file
+      Dim file
+      set file = FSO.GetFile(Filepath)
+
+      ' Open the file
+      Dim TextStream
+      Set TextStream = file.OpenAsTextStream(ForReading, TristateUseDefault)
+
+      ' Read the file line by line
+      Do While Not TextStream.AtEndOfStream
+        Dim Line
+        Line = TextStream.readline
+
+        ' Do something with "Line"
+        dim variableRecord
+        variableRecord = split(line,"|")
+
+        if (ubound(variableRecord) = 2) then
+          objDictionary.add trim(variableRecord(0)), trim(variableRecord(1))
+        end if
+      Loop
+
+      Set TextStream = nothing
+
+    End If
+
+    Set FSO = nothing
+
+    set getDictionary = objDictionary
+
+  end function
+
+
+  function ifBlank (valueToCheck, valueIfBlank)
+
+    if (isnull(valueToCheck) or valueToCheck = "") then
+      ifBlank = valueIfBlank
+    else
+      ifBlank = valueToCheck
+    end if
+
+  end function
+%>
