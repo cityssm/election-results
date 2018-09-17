@@ -8,6 +8,13 @@ $(document).ready(function() {
   {
     let resultsJSON = {};
 
+    const currentDate = new Date();
+    let isElectionDay = false;
+
+    if (currentDate.getFullYear() === 2018 && currentDate.getMonth() === (10 - 1) && currentDate.getDate() === 22) {
+      isElectionDay = true;
+    }
+
     const raceContainerEles = document.getElementsByClassName("raceContainer");
 
     const fn_updateRaceContainer = function(raceContainerEle) {
@@ -79,12 +86,15 @@ $(document).ready(function() {
           } catch (e) {
             // ignore
           }
-
         });
     };
 
     document.getElementById("siteContainer").style.display = "block";
     fn_getResults();
+
+    if (isElectionDay) {
+      window.setInterval(fn_getResults, (61 * 1000));
+    }
   }
 
   // Navigation setup
