@@ -31,10 +31,12 @@
   '---'
 
   dim dataFileA
-	set dataFileA = getDictionary("EL570D1O")
+	'set dataFileA = getDictionary("EL570D1O")
+	set dataFileA = getDictionary("EL570D1O-init")
 
 	dim dataFileB
-	set dataFileB = getDictionary("EL580D1O")
+	'set dataFileB = getDictionary("EL580D1O")
+	set dataFileB = getDictionary("EL580D1O-init")
 
   function getDictionary (fileName)
 
