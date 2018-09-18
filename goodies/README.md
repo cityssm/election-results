@@ -8,4 +8,4 @@ A simple PivotChart is also offered to get you started.
 
 **[Power BI](powerBI.pbix)**<br />
 A simple Power BI file connected to the election results.
-Include one bar chart to get you started.
+Includes one stacked bar chart to get you started.
