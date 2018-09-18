@@ -30,7 +30,7 @@ $(document).ready(function() {
         "</h2>" +
         "</div>";
 
-      if (raceJSON.results.length === 0) {
+      if (raceJSON.isDown) {
         // ward is down
         cardHTML += "<div class=\"card-body\">" +
           "<div class=\"alert alert-warning text-center\"><strong>Results Unavailable</strong><br />" +
