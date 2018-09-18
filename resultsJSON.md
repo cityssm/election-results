@@ -70,3 +70,7 @@ Each `result` Object contains the following properties.
   No votes are cast on acclaimed races.
 
 - You can calculate Overall Voter Turnout as `votersHeardFrom / votersTotal`.
+
+## Are there samples available?
+
+There are several sample scenarios available for testing in the [samples folder](samples/).

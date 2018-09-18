@@ -1,0 +1,391 @@
+{
+  "lastUpdated": "10/22/2018 9:54:56 PM",
+  "votersTotal": 54000,
+  "votersHeardFrom": 19345,
+  "races": {
+
+    "mayor": {
+      "raceTitle": "Mayor - City Wide",
+      "pollsTotal": 206,
+      "pollsReporting": 206,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [{
+        "candidate": "Goldfish",
+        "votes": 5814
+      }, {
+        "candidate": "Dog",
+        "votes": 5329
+      }, {
+        "candidate": "Cat",
+        "votes": 4324
+      }, {
+        "candidate": "Hamster",
+        "votes": 1963
+      }]
+    },
+
+    "mayor_ward1": {
+      "raceTitle": "Mayor - Ward 1",
+      "pollsTotal": 49,
+      "pollsReporting": 49,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [{
+        "candidate": "Goldfish",
+        "votes": 1252
+      }, {
+        "candidate": "Dog",
+        "votes": 1175
+      }, {
+        "candidate": "Cat",
+        "votes": 898
+      }, {
+        "candidate": "Hamster",
+        "votes": 311
+      }]
+    },
+
+    "mayor_ward2": {
+      "raceTitle": "Mayor - Ward 2",
+      "pollsTotal": 41,
+      "pollsReporting": 41,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [{
+        "candidate": "Goldfish",
+        "votes": 1201
+      }, {
+        "candidate": "Dog",
+        "votes": 1097
+      }, {
+        "candidate": "Cat",
+        "votes": 903
+      }, {
+        "candidate": "Hamster",
+        "votes": 411
+      }]
+    },
+
+    "mayor_ward3": {
+      "raceTitle": "Mayor - Ward 3",
+      "pollsTotal": 42,
+      "pollsReporting": 42,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [{
+        "candidate": "Goldfish",
+        "votes": 1300
+      }, {
+        "candidate": "Dog",
+        "votes": 1095
+      }, {
+        "candidate": "Cat",
+        "votes": 901
+      }, {
+        "candidate": "Hamster",
+        "votes": 510
+      }]
+    },
+
+    "mayor_ward4": {
+      "raceTitle": "Mayor - Ward 4",
+      "pollsTotal": 40,
+      "pollsReporting": 40,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [{
+        "candidate": "Dog",
+        "votes": 1221
+      }, {
+        "candidate": "Goldfish",
+        "votes": 1164
+      }, {
+        "candidate": "Cat",
+        "votes": 880
+      }, {
+        "candidate": "Hamster",
+        "votes": 499
+      }]
+    },
+
+    "mayor_ward5": {
+      "raceTitle": "Mayor - Ward 5",
+      "pollsTotal": 34,
+      "pollsReporting": 34,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [{
+        "candidate": "Goldfish",
+        "votes": 897
+      }, {
+        "candidate": "Cat",
+        "votes": 742
+      }, {
+        "candidate": "Dog",
+        "votes": 741
+      }, {
+        "candidate": "Hamster",
+        "votes": 232
+      }]
+    },
+
+    "ward1": {
+      "raceTitle": "Councillor - Ward 1",
+      "pollsTotal": 49,
+      "pollsReporting": 49,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [{
+        "candidate": "Duck",
+        "votes": 1803
+      }, {
+        "candidate": "Horse",
+        "votes": 1641
+      }, {
+        "candidate": "Pig",
+        "votes": 1311
+      }, {
+        "candidate": "Chicken",
+        "votes": 1269
+      }, {
+        "candidate": "Cow",
+        "votes": 301
+      }]
+    },
+
+    "ward2": {
+      "raceTitle": "Councillor - Ward 2",
+      "pollsTotal": 41,
+      "pollsReporting": 41,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [{
+        "candidate": "Leopard",
+        "votes": 1788
+      }, {
+        "candidate": "Lion",
+        "votes": 1677
+      }, {
+        "candidate": "Elephant",
+        "votes": 899
+      }, {
+        "candidate": "Hippopotamus",
+        "votes": 862
+      }, {
+        "candidate": "Cheetah",
+        "votes": 602
+      }, {
+        "candidate": "Wildebeest",
+        "votes": 583
+      }, {
+        "candidate": "Buffalo",
+        "votes": 471
+      }]
+    },
+
+    "ward3": {
+      "raceTitle": "Councillor - Ward 3",
+      "pollsTotal": 42,
+      "pollsReporting": 42,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [{
+        "candidate": "Frog",
+        "votes": 1801
+      }, {
+        "candidate": "Crocodile",
+        "votes": 1766
+      }, {
+        "candidate": "Turtle",
+        "votes": 1742
+      }, {
+        "candidate": "Snake",
+        "votes": 688
+      }, {
+        "candidate": "Alligator",
+        "votes": 676
+      }]
+    },
+
+    "ward4": {
+      "raceTitle": "Councillor - Ward 4",
+      "pollsTotal": 40,
+      "pollsReporting": 40,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [{
+        "candidate": "Hummingbird",
+        "votes": 2177
+      }, {
+        "candidate": "Parrot",
+        "votes": 2007
+      }, {
+        "candidate": "Pigeon",
+        "votes": 1522
+      }, {
+        "candidate": "Swallow",
+        "votes": 876
+      }]
+    },
+
+    "ward5": {
+      "raceTitle": "Councillor - Ward 5",
+      "pollsTotal": 34,
+      "pollsReporting": 34,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [{
+        "candidate": "Beaver",
+        "votes": 1734
+      }, {
+        "candidate": "Muskrat",
+        "votes": 1343
+      }, {
+        "candidate": "Mouse",
+        "votes": 1288
+      }, {
+        "candidate": "Rat",
+        "votes": 342
+      }]
+    },
+
+    "adsb_ward1": {
+      "raceTitle": "Algoma District School Board - Ward 1",
+      "pollsTotal": 49,
+      "pollsReporting": 49,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [{
+        "candidate": "Ladybug",
+        "votes": 0
+      }]
+    },
+
+    "adsb_ward2": {
+      "raceTitle": "Algoma District School Board - Ward 2",
+      "pollsTotal": 41,
+      "pollsReporting": 41,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [{
+        "candidate": "Hornet",
+        "votes": 804
+      }, {
+        "candidate": "Wasp",
+        "votes": 674
+      }]
+    },
+
+    "adsb_ward3": {
+      "raceTitle": "Algoma District School Board - Ward 3",
+      "pollsTotal": 42,
+      "pollsReporting": 42,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [{
+        "candidate": "Goat",
+        "votes": 901
+      }, {
+        "candidate": "Sheep",
+        "votes": 768
+      }]
+    },
+
+    "adsb_ward4": {
+      "raceTitle": "Algoma District School Board - Ward 4",
+      "pollsTotal": 40,
+      "pollsReporting": 40,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [{
+        "candidate": "Caribou",
+        "votes": 832
+      }, {
+        "candidate": "Deer",
+        "votes": 665
+      }]
+    },
+
+    "adsb_ward5": {
+      "raceTitle": "Algoma District School Board - Ward 5",
+      "pollsTotal": 34,
+      "pollsReporting": 34,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [{
+        "candidate": "Partridge",
+        "votes": 611
+      }, {
+        "candidate": "Pheasant",
+        "votes": 455
+      }]
+    },
+
+    "hscdsb": {
+      "raceTitle": "Huron-Superior Catholic School Board",
+      "pollsTotal": 206,
+      "pollsReporting": 206,
+      "positionsAvailable": 6,
+      "isDown": false,
+      "results": [{
+        "candidate": "Lake-Trout",
+        "votes": 3501
+      }, {
+        "candidate": "Rainbow-Trout",
+        "votes": 3466
+      }, {
+        "candidate": "Perch",
+        "votes": 2898
+      }, {
+        "candidate": "Walleye",
+        "votes": 2011
+      }, {
+        "candidate": "Largemouth-Bass",
+        "votes": 2007
+      }, {
+        "candidate": "Salmon",
+        "votes": 1992
+      }, {
+        "candidate": "Smelt",
+        "votes": 1866
+      }, {
+        "candidate": "Sturgeon",
+        "votes": 1576
+      }, {
+        "candidate": "Whitefish",
+        "votes": 1501
+      }, {
+        "candidate": "Carp",
+        "votes": 1377
+      }]
+    },
+
+    "cscno": {
+      "raceTitle": "Conseil scolaire catholique du Nouvel-Ontario",
+      "pollsTotal": 206,
+      "pollsReporting": 0,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [{
+        "candidate": "Canard",
+        "votes": 0
+      }]
+    },
+
+    "cspgno": {
+      "raceTitle": "Conseil scolaire public du Grand Nord de L'Ontario",
+      "pollsTotal": 206,
+      "pollsReporting": 206,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [{
+        "candidate": "Cheval",
+        "votes": 177
+      }, {
+        "candidate": "Cochon",
+        "votes": 123
+      }]
+    }
+  }
+}
