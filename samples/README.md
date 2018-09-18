@@ -7,7 +7,7 @@ but are consistent across the four files.
 - [resultsJSON-0-start.json](resultsJSON-0-start.json)<br />
   The beginning of the evening, before any votes have been reported.
 
-- [resultsJSON-1-halfway.json](resultsJSON-1-halfway.json)<br />
+- [resultsJSON-1-halfWay.json](resultsJSON-1-halfWay.json)<br />
   Roughly half of the polls have reported their counts.
 
 - [resultsJSON-2-ward2down.json](resultsJSON-2-ward2down.json)<br />
