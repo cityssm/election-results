@@ -18,6 +18,13 @@
       .unicode {
         font-family: san-serif;
       }
+
+      .hamburger {
+        display: inline-block;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        width: 1.5em;
+        height: 1.5em;
+      }
     </style>
   </head>
   <body>
@@ -50,8 +57,8 @@
                         <span class="unicode" aria-hidden="true">&#x25b6;</span>
                       </button>
                     </div>
-                    <button class="btn btn-secondary d-md-none ml-2" id="tabsContainer--toggleBtn" type="button" aria-controls="tabsContainer" aria-expanded="false">
-                      <span aria-hidden="true">&equiv;</span>
+                    <button class="btn btn-secondary -d-md-none ml-2" id="tabsContainer--toggleBtn" type="button" aria-controls="tabsContainer" aria-expanded="false" style="padding:0.25rem 0.75rem;line-height:1">
+                      <span class="hamburger" aria-hidden="true"></span>
                       <span class="sr-only">Toggle Race Options</span>
                     </button>
                   </div>
