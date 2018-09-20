@@ -73,4 +73,20 @@ Each `result` Object contains the following properties.
 
 ## Are there samples available?
 
-There are several sample scenarios available for testing in the [samples folder](samples/).
+To assist with testing, four mock results files are available.
+Candidate names have been changed to avoid showing favouritism,
+but are consistent across the four files.
+
+- [resultsJSON-0-start.json](samples/resultsJSON-0-start.json)<br />
+  The beginning of the evening, before any votes have been reported.
+
+- [resultsJSON-1-halfWay.json](samples/resultsJSON-1-halfWay.json)<br />
+  Roughly half of the polls have reported their counts.
+
+- [resultsJSON-2-ward2down.json](samples/resultsJSON-2-ward2down.json)<br />
+  Uh oh!  There's a problem communicating with a Ward 2 polling station.
+  All results from Ward 2 are withheld.
+
+- [resultsJSON-3-complete.json](samples/resultsJSON-3-complete.json)<br />
+  All of the polling stations have reported their counts.
+  The election is over.
