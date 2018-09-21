@@ -1,6 +1,6 @@
 *The following information is for developers who wish to build their own election results website.
 If you are just looking to view the election results as they come in,
-visit [the City's election results website](http://voter.saultstemarie.ca/results/).*
+visit [the City's election results website](https://voter.saultstemarie.ca/results/).*
 
 # Election Results JSON File
 
@@ -28,7 +28,11 @@ We do ask that you follow some usage guidelines.
 
 Real-time election night results can be found at the following address.
 
+**HTTP**<br />
 http://voter.saultstemarie.ca/results/resultsJSON.asp
+
+**HTTPS**<br />
+https://voter.saultstemarie.ca/results/resultsJSON.asp
 
 ## Understanding the JSON
 
