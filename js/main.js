@@ -6,6 +6,8 @@ $(document).ready(function() {
 
   // load and refresh the data
   {
+    let tableUID = Date.now();
+
     let resultsJSON = {};
 
     const currentDate = new Date();
@@ -19,26 +21,30 @@ $(document).ready(function() {
 
     const fn_updateRaceContainer = function(raceContainerEle) {
 
+      tableUID += 1;
+
+      const tableID = "table-" + tableUID;
+
       const raceJSON = resultsJSON.races[raceContainerEle.getAttribute("data-race")];
 
       const raceIsAcclaimed = raceJSON.positionsAvailable === raceJSON.results.length;
       const allPollsReported = raceIsAcclaimed || raceJSON.pollsTotal === raceJSON.pollsReporting;
 
-      let cardHTML = "<div class=\"card-body py-2\">" +
-        "<h2 class=\"card-title text-center h3 mb-0\">" +
+      let cardHTML = "<figcaption class=\"card-body py-2\" role=\"presentation\">" +
+        "<h2 class=\"card-title text-center h3 mb-0\" id=\"" + tableID + "_label\">" +
         raceJSON.raceTitle +
         "</h2>" +
-        "</div>";
+        "</figcaption>";
 
       if (raceJSON.isDown) {
         // ward is down
-        cardHTML += "<div class=\"card-body\">" +
+        cardHTML += "<div class=\"card-body\" role=\"alert\">" +
           "<div class=\"alert alert-warning text-center\"><strong>Results Unavailable</strong><br />" +
           "Please stand by." +
           "</div>" +
           "</div>";
       } else {
-        cardHTML += "<table class=\"table table-sm table-hover mb-0\">" +
+        cardHTML += "<table class=\"table table-sm table-hover mb-0\" aria-labelledby=\"" + tableID + "_label\" aria-describedby=\"" + tableID + "_polls\">" +
           "<thead>" +
           "<th>Candidate</th>" +
           "<th class=\"text-right\">Votes</th>" +
@@ -59,7 +65,7 @@ $(document).ready(function() {
           "</tbody>" +
           "</table>" +
           (raceIsAcclaimed ? "" :
-            "<div class=\"card-footer text-center\">" +
+            "<div class=\"card-footer text-center\" id=\"" + tableID + "_polls\">" +
             "<small class=\"text-secondary\">" +
             raceJSON.pollsReporting + " of " + raceJSON.pollsTotal + " polls reporting</small>" +
             "</div>");
@@ -97,6 +103,7 @@ $(document).ready(function() {
     }
   }
 
+
   // Navigation setup
   {
     const tabsContainer_toggleBtn = document.getElementById("tabsContainer--toggleBtn");
@@ -122,14 +129,27 @@ $(document).ready(function() {
 
     $("a[data-toggle='tab']", tabsContainer_ele).on("shown.bs.tab", fn_hideTabsContainer);
 
-    document.getElementById("tabsContainer--prevBtn").addEventListener("click", function() {
-      const currentTabID = tabsContainer_ele.getElementsByClassName("active")[0].id;
-      tabsContainer_ele.querySelector("a[data-next-tab='" + currentTabID + "']").click();
-    });
+    /*
+     * Initialize next and previous buttons
+     */
 
-    document.getElementById("tabsContainer--nextBtn").addEventListener("click", function() {
-      const nextTabID = tabsContainer_ele.getElementsByClassName("active")[0].getAttribute("data-next-tab");
-      document.getElementById(nextTabID).click();
-    });
+    const prevBtnEles = document.getElementsByClassName("tabsContainer--prevBtn");
+    let btnIndex;
+
+    for (btnIndex = 0; btnIndex < prevBtnEles.length; btnIndex += 1) {
+      prevBtnEles[btnIndex].addEventListener("click", function() {
+        const currentTabID = tabsContainer_ele.getElementsByClassName("active")[0].id;
+        tabsContainer_ele.querySelector("a[data-next-tab='" + currentTabID + "']").click();
+      });
+    }
+
+    const nextBtnEles = document.getElementsByClassName("tabsContainer--nextBtn");
+    for (btnIndex = 0; btnIndex < nextBtnEles.length; btnIndex += 1) {
+      nextBtnEles[btnIndex].addEventListener("click", function() {
+        const nextTabID = tabsContainer_ele.getElementsByClassName("active")[0].getAttribute("data-next-tab");
+        document.getElementById(nextTabID).click();
+      });
+    }
+
   }
 });

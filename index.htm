@@ -9,6 +9,10 @@
     <title>Sault Ste. Marie Election Results</title>
 
     <style>
+      .strong {
+        font-weight: bold;
+      }
+
       .raceContainer {
         max-width: 25rem;
         margin-left: auto;
@@ -36,10 +40,10 @@
         </div>
       </div>
     </noscript>
-    <div id="siteContainer" style="display:none">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-4 col-lg-3">
+    <div id="siteContainer" style="display:none" role="presentation">
+      <div class="container-fluid" role="presentation">
+        <div class="row" role="presentation">
+          <div class="col-12 col-md-4 col-lg-3" role="presentation">
             <header class="border-bottom py-2">
               <div class="row justify-content-between align-items-end">
                 <h1 class="h4 col-auto">
@@ -48,11 +52,11 @@
                 <div class="col-auto">
                   <div class="btn-toolbar">
                     <div class="btn-group">
-                      <button class="btn btn-secondary" id="tabsContainer--prevBtn" type="button">
+                      <button class="btn btn-secondary tabsContainer--prevBtn" type="button">
                         <span class="sr-only">Previous Race</span>
                         <span class="unicode" aria-hidden="true">&#x25c0;</span>
                       </button>
-                      <button class="btn btn-secondary" id="tabsContainer--nextBtn" type="button">
+                      <button class="btn btn-secondary tabsContainer--nextBtn" type="button">
                         Next
                         <span class="unicode" aria-hidden="true">&#x25b6;</span>
                       </button>
@@ -65,29 +69,29 @@
                 </div>
               </div>
             </header>
-            <nav class="d-none d-md-block sticky-top pt-2" id="tabsContainer">
-              <ul class="nav nav-pills flex-column" role="tablist">
-                <li class="nav-item">
+            <nav class="d-none d-md-block sticky-top pt-2" id="tabsContainer" role="presentation">
+              <ul class="nav nav-pills flex-column" role="tablist" aria-orientation="vertical">
+                <li class="nav-item" role="presentation">
                   <a class="nav-link active" id="tab--race-council" data-toggle="tab" data-next-tab="tab--race-mayor" role="tab" href="#race-council" aria-controls="race-council" aria-selected="true">
                     City Council
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" role="presentation">
                   <a class="nav-link" id="tab--race-mayor" data-toggle="tab" role="tab" data-next-tab="tab--race-adsb" href="#race-mayor" aria-controls="race-mayor" aria-selected="false">
                     Mayor's Race by Ward
                   </a>
                 </li>
-                <li class="nav-item mav-item--no-link">
-                  <span class="nav-link">
-                    <strong>School Board Trustees</strong>
+                <li class="nav-item nav-item--no-link" role="presentation">
+                  <span class="nav-link strong">
+                    School Board Trustees
                   </span>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" role="presentation">
                   <a class="nav-link" id="tab--race-adsb" data-toggle="tab" role="tab" data-next-tab="tab--race-school" href="#race-adsb" aria-controls="race-adsb" aria-selected="false">
                     Algoma District School Board
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" role="presentation">
                   <a class="nav-link" id="tab--race-school" data-toggle="tab" role="tab" data-next-tab="tab--race-council" href="#race-school" aria-controls="race-school" aria-selected="false">
                     All Other School Boards
                   </a>
@@ -97,87 +101,95 @@
             </nav>
           </div>
           <main class="col-12 col-md-8 col-lg-9 pt-2">
-            <div class="tab-content" style="min-height:100vh">
-              <article class="tab-pane show active" id="race-council" role="tabpanel" aria-labelledby="tab--race-council">
+            <div class="tab-content" style="min-height:100vh" aria-live="polite" aria-atomic="true" aria-relevant="all">
+              <article class="tab-pane show active" id="race-council" name="race-council" role="tabpanel" aria-labelledby="tab--race-council">
                 <h1 class="border-bottom pb-3 mb-3">City Council</h1>
-                <div class="card raceContainer mb-2" data-race="mayor"></div>
+                <figure class="card raceContainer mb-2" data-race="mayor"></figure>
                 <div class="row justify-content-center">
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="ward1"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="ward1"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="ward2"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="ward2"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="ward3"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="ward3"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="ward4"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="ward4"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="ward5"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="ward5"></figure>
                   </div>
                 </div>
               </article>
-              <article class="tab-pane" id="race-mayor" role="tabpanel" aria-labelledby="tab--race-mayor">
+              <article class="tab-pane" id="race-mayor" name="race-mayor" role="tabpanel" aria-labelledby="tab--race-mayor">
                 <h1 class="border-bottom pb-3 mb-3">Mayor's Race</h1>
-                <div class="card raceContainer mb-2" data-race="mayor"></div>
+                <figure class="card raceContainer mb-2" data-race="mayor"></figure>
                 <div class="row justify-content-center">
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="mayor_ward1"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="mayor_ward1"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="mayor_ward2"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="mayor_ward2"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="mayor_ward3"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="mayor_ward3"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="mayor_ward4"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="mayor_ward4"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="mayor_ward5"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="mayor_ward5"></figure>
                   </div>
                 </div>
               </article>
-              <article class="tab-pane" id="race-adsb" role="tabpanel" aria-labelledby="tab--race-adsb">
+              <article class="tab-pane" id="race-adsb" name="race-adsb" role="tabpanel" aria-labelledby="tab--race-adsb">
                 <h1 class="border-bottom pb-3 mb-3">Algoma District School Board</h1>
                 <div class="row justify-content-center">
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="adsb_ward1"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="adsb_ward1"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="adsb_ward2"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="adsb_ward2"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="adsb_ward3"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="adsb_ward3"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="adsb_ward4"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="adsb_ward4"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="adsb_ward5"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="adsb_ward5"></figure>
                   </div>
                 </div>
               </article>
-              <article class="tab-pane" id="race-school" role="tabpanel" aria-labelledby="tab--race-school">
+              <article class="tab-pane" id="race-school" name="race-school" role="tabpanel" aria-labelledby="tab--race-school">
                 <h1 class="border-bottom pb-3 mb-3">Other School Boards</h1>
-                <div class="card raceContainer mb-2" data-race="hscdsb"></div>
+                <figure class="card raceContainer mb-2" data-race="hscdsb"></figure>
                 <div class="row justify-content-center">
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="cspgno"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="cspgno"></figure>
                   </div>
-                  <div class="col-lg-6 col-xl-4">
-                    <div class="card raceContainer mb-2" data-race="cscno"></div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="cscno"></figure>
                   </div>
                 </div>
               </article>
+            </div>
+            <div class="sr-only" role="presentation">
+              <button class="tabsContainer--prevBtn" type="button">
+                Previous Race
+              </button>
+              <button class="tabsContainer--nextBtn" type="button">
+                Next Race
+              </button>
             </div>
           </main>
         </div>
       </div>
       <footer class="bg-dark mt-2">
-        <div class="container-fluid text-right py-3">
+        <div class="container-fluid text-right py-3" role="presentation">
           <span class="text-white">Election day is Monday, October 22nd, 2018.  Polls close at 8 pm.  Results should arrive shortly after.</span><br />
           <a class="small text-white" href="resultsJSON.md.html" target="_blank">Media / Developer Usage</a>
         </div>
