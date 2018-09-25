@@ -115,6 +115,11 @@ $(document).ready(function() {
       tabsContainer_toggleBtn.setAttribute("aria-expanded", "false");
     };
 
+    const fn_nextTab = function() {
+      const nextTabID = tabsContainer_ele.getElementsByClassName("active")[0].getAttribute("data-next-tab");
+      document.getElementById(nextTabID).click();
+    };
+
     tabsContainer_toggleBtn.addEventListener("click", function() {
 
       if (tabsContainer_ele.classList.contains("d-none")) {
@@ -146,11 +151,14 @@ $(document).ready(function() {
 
     const nextBtnEles = document.getElementsByClassName("tabsContainer--nextBtn");
     for (btnIndex = 0; btnIndex < nextBtnEles.length; btnIndex += 1) {
-      nextBtnEles[btnIndex].addEventListener("click", function() {
-        const nextTabID = tabsContainer_ele.getElementsByClassName("active")[0].getAttribute("data-next-tab");
-        document.getElementById(nextTabID).click();
-      });
+      nextBtnEles[btnIndex].addEventListener("click", fn_nextTab);
     }
 
+    const autoTabCheckboxEle = document.getElementById("option-autoTab");
+    window.setInterval(function() {
+      if (autoTabCheckboxEle.checked) {
+        fn_nextTab();
+      }
+    }, 45 * 1000);
   }
 });
