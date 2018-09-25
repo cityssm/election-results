@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Real-time unofficial election results for the 2018 Sault Ste. Marie Municipal Election">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>Sault Ste. Marie Election Results</title>
@@ -102,7 +103,7 @@
           </div>
           <main class="col-12 col-md-8 col-lg-9 pt-2">
             <div class="tab-content" style="min-height:100vh" aria-live="polite" aria-atomic="true" aria-relevant="all">
-              <article class="tab-pane show active" id="race-council" name="race-council" role="tabpanel" aria-labelledby="tab--race-council">
+              <article class="tab-pane fade show active" id="race-council" name="race-council" role="tabpanel" aria-labelledby="tab--race-council">
                 <h1 class="border-bottom pb-3 mb-3">City Council</h1>
                 <figure class="card raceContainer mb-2" data-race="mayor"></figure>
                 <div class="row justify-content-center">
@@ -123,7 +124,7 @@
                   </div>
                 </div>
               </article>
-              <article class="tab-pane" id="race-mayor" name="race-mayor" role="tabpanel" aria-labelledby="tab--race-mayor">
+              <article class="tab-pane fade" id="race-mayor" name="race-mayor" role="tabpanel" aria-labelledby="tab--race-mayor">
                 <h1 class="border-bottom pb-3 mb-3">Mayor's Race</h1>
                 <figure class="card raceContainer mb-2" data-race="mayor"></figure>
                 <div class="row justify-content-center">
@@ -144,7 +145,7 @@
                   </div>
                 </div>
               </article>
-              <article class="tab-pane" id="race-adsb" name="race-adsb" role="tabpanel" aria-labelledby="tab--race-adsb">
+              <article class="tab-pane fade" id="race-adsb" name="race-adsb" role="tabpanel" aria-labelledby="tab--race-adsb">
                 <h1 class="border-bottom pb-3 mb-3">Algoma District School Board</h1>
                 <div class="row justify-content-center">
                   <div class="col-lg-6 col-xl-4" role="presentation">
@@ -164,20 +165,20 @@
                   </div>
                 </div>
               </article>
-              <article class="tab-pane" id="race-school" name="race-school" role="tabpanel" aria-labelledby="tab--race-school">
+              <article class="tab-pane fade" id="race-school" name="race-school" role="tabpanel" aria-labelledby="tab--race-school">
                 <h1 class="border-bottom pb-3 mb-3">Other School Boards</h1>
-                <figure class="card raceContainer mb-2" data-race="hscdsb"></figure>
                 <div class="row justify-content-center">
                   <div class="col-lg-6 col-xl-4" role="presentation">
-                    <figure class="card raceContainer mb-2" data-race="cspgno"></figure>
+                    <figure class="card raceContainer mb-2" data-race="hscdsb"></figure>
                   </div>
                   <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer mb-2" data-race="cspgno"></figure>
                     <figure class="card raceContainer mb-2" data-race="cscno"></figure>
                   </div>
                 </div>
               </article>
             </div>
-            <div class="sr-only" role="presentation">
+            <div class="sr-only" role="navigation">
               <button class="tabsContainer--prevBtn" type="button">
                 Previous Race
               </button>
@@ -198,7 +199,7 @@
                 Scroll through tabs (45 <abbr title="seconds">sec</abbr>)
               </label>
             </div>
-            
+
             <a class="text-white small" href="resultsJSON.md.html" target="_blank">Media / Developer Usage</a>
           </div>
         </div>
