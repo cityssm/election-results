@@ -25,13 +25,14 @@ $(document).ready(function() {
 
       const tableID = "table-" + tableUID;
 
-      const raceJSON = resultsJSON.races[raceContainerEle.getAttribute("data-race")];
+      const raceKey = raceContainerEle.getAttribute("data-race");
+      const raceJSON = resultsJSON.races[raceKey];
 
       const raceIsAcclaimed = raceJSON.positionsAvailable === raceJSON.results.length;
       const allPollsReported = raceIsAcclaimed || raceJSON.pollsTotal === raceJSON.pollsReporting;
 
       let cardHTML = "<figcaption class=\"card-body py-2\" role=\"presentation\">" +
-        "<h2 class=\"card-title text-center h3 mb-0\" id=\"" + tableID + "_label\">" +
+        "<h2 class=\"card-title text-center h3 mb-0\" id=\"" + tableID + "_label\"" + (raceKey === "cspgno" || raceKey === "cscno" ? " lang=\"fr\"" : "") + ">" +
         raceJSON.raceTitle +
         "</h2>" +
         "</figcaption>";
