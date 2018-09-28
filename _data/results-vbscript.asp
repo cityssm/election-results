@@ -15,18 +15,19 @@
   city_down = cbool(ward1_down or ward2_down or ward3_down or word4_down or ward5_down)
 
   ' number of polls'
+  ' note that 3 additional polls are added to account for advanced polling'
 
-  ward1_polls = 49
-  ward2_polls = 41
-  ward3_polls = 42
-  ward4_polls = 40
-  ward5_polls = 34
+  ward1_polls = 49 + 3
+  ward2_polls = 41 + 3
+  ward3_polls = 42 + 3
+  ward4_polls = 41 + 3
+  ward5_polls = 34 + 3
 
   city_polls = ward1_polls + ward2_polls + ward3_polls + ward4_polls + ward5_polls
 
   ' number of voters'
 
-  city_voters = 54000
+  city_voters = 55000
 
   '---'
 
