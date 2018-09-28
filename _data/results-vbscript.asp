@@ -25,6 +25,14 @@
 
   city_polls = ward1_polls + ward2_polls + ward3_polls + ward4_polls + ward5_polls
 
+  ' 6 additional polls added for outlying areas'
+  ' Sault North, Laird, Tarbutt, Johnson, MacDonald Meredith, Prince'
+  hscdsb_polls = city_polls + 6
+
+  ' 2 additional polls added for outlying areas'
+  ' Sault North, Prince'
+  cspgno_polls = city_polls + 2
+
   ' number of voters'
 
   city_voters = 55000

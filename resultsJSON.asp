@@ -370,7 +370,7 @@
     },
     "hscdsb": {
       "raceTitle": "Huron-Superior Catholic School Board",
-      "pollsTotal": <%=city_polls %>,
+      "pollsTotal": <%=hscdsb_polls %>,
       "pollsReporting": <%=ifblank(dataFileA.Item("S1R"), -1) %>,
       "positionsAvailable": 6,
       "isDown": <%=lcase(city_down) %>,
@@ -425,7 +425,7 @@
     },
     "cspgno": {
       "raceTitle": "Conseil scolaire public du Grand Nord de L'Ontario",
-      "pollsTotal": <%=city_polls %>,
+      "pollsTotal": <%=cspgno_polls %>,
       "pollsReporting": <%=ifblank(dataFileA.Item("F2R"), -1) %>,
       "positionsAvailable": 1,
       "isDown": <%=lcase(city_down) %>,
