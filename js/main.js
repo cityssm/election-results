@@ -81,6 +81,10 @@ $(document).ready(function() {
         .done(function(json) {
           resultsJSON = json;
 
+          document.getElementById("lastUpdated").innerHTML = "Last Updated<br />" +
+          resultsJSON.lastUpdated +
+          (isElectionDay ? "<br /><em class=\"text-muted\">(Refreshing automatically)</em>" : "");
+
           let index;
           for (index = 0; index < raceContainerEles.length; index += 1) {
             fn_updateRaceContainer(raceContainerEles[index]);
