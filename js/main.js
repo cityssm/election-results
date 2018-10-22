@@ -97,14 +97,14 @@ $(document).ready(function() {
             json.races.ward3.pollsReporting +
             json.races.ward4.pollsReporting +
             json.races.ward5.pollsReporting +
-            json.races.adsb_ward1.pollsReporting + // acclaimed
+            //json.races.adsb_ward1.pollsReporting + // acclaimed
             json.races.adsb_ward2.pollsReporting +
             json.races.adsb_ward3.pollsReporting +
             json.races.adsb_ward4.pollsReporting +
             json.races.adsb_ward5.pollsReporting +
             json.races.adsb_unorganized.pollsReporting +
             json.races.hscdsb.pollsReporting +
-            json.races.cscno.pollsReporting + //acclaimed
+            //json.races.cscno.pollsReporting + //acclaimed
             json.races.cspgno.pollsReporting;
 
           const pollsTotal_sum = json.races.mayor.pollsTotal +
@@ -113,14 +113,14 @@ $(document).ready(function() {
             json.races.ward3.pollsTotal +
             json.races.ward4.pollsTotal +
             json.races.ward5.pollsTotal +
-            json.races.adsb_ward1.pollsTotal + // acclaimed
+            //json.races.adsb_ward1.pollsTotal + // acclaimed
             json.races.adsb_ward2.pollsTotal +
             json.races.adsb_ward3.pollsTotal +
             json.races.adsb_ward4.pollsTotal +
             json.races.adsb_ward5.pollsTotal +
             json.races.adsb_unorganized.pollsTotal +
             json.races.hscdsb.pollsTotal +
-            json.races.cscno.pollsTotal + //acclaimed
+            //json.races.cscno.pollsTotal + //acclaimed
             json.races.cspgno.pollsTotal;
 
           document.getElementById("progress-bar--pollsReporting_sum").style.width = ((pollsReporting_sum / pollsTotal_sum) * 100).toString() + "%";
