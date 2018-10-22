@@ -87,7 +87,11 @@ $(document).ready(function() {
           resultsJSON.lastUpdated +
           (isElectionDay ? "<br /><em class=\"text-muted\">(Refreshing automatically)</em>" : "");
 
-          document.getElementById("progress-bar--votersHeardFrom").style.width = ((json.votersHeardFrom / json.votersTotal) * 100).toString() + "%";
+          let progressBarEle = document.getElementById("progress-bar--votersHeardFrom");
+          progressBarEle.style.width = ((json.votersHeardFrom / json.votersTotal) * 100).toString() + "%";
+          progressBarEle.setAttribute("aria-valuenow", json.votersHeardFrom);
+          progressBarEle.setAttribute("aria-valuemax", json.votersTotal);
+
           document.getElementById("progress--votersHeardFrom").innerText = json.votersHeardFrom;
           document.getElementById("progress--votersTotal").innerText = json.votersTotal;
 
@@ -123,7 +127,10 @@ $(document).ready(function() {
             //json.races.cscno.pollsTotal + //acclaimed
             json.races.cspgno.pollsTotal;
 
-          document.getElementById("progress-bar--pollsReporting_sum").style.width = ((pollsReporting_sum / pollsTotal_sum) * 100).toString() + "%";
+          progressBarEle = document.getElementById("progress-bar--pollsReporting_sum");
+          progressBarEle.style.width = ((pollsReporting_sum / pollsTotal_sum) * 100).toString() + "%";
+          progressBarEle.setAttribute("aria-valuenow", pollsReporting_sum);
+          progressBarEle.setAttribute("aria-valuemax", pollsTotal_sum);
 
           // Update races
           let index;
