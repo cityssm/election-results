@@ -39,6 +39,12 @@ M5C03|     Provenzano|
 M5V03|    0          |
 M5C04|           Ring|
 M5V04|    0          |
+M1R  |    0          |
+M2R  |    0          |
+M3R  |    0          |
+M4R  |    0          |
+M5R  |    0          |
+M6R  |    0          |
 MC1  |  Johnston     |
 MV1  |    0          |
 MC2  |Martinovic     |
@@ -47,11 +53,6 @@ MC3  |Provenzano     |
 MV3  |    0          |
 MC4  |      Ring     |
 MV4  |    0          |
-M1R  |    0          |
-M2R  |    0          |
-M3R  |    0          |
-M4R  |    0          |
-M5R  |    0          |
 VSC  |    0          |
 VSP  |   .00         |
 VHF  |    0          |
@@ -111,6 +112,7 @@ W2R  |    0          |
 W3R  |    0          |
 W4R  |    0          |
 W5R  |    0          |
+W6R  |    0          |
 B1C01|          Sarlo|
 B1V01|    0          |
 B2C01|       Lidstone|
