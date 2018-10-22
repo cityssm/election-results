@@ -78,23 +78,13 @@
                   </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="tab--race-mayor" data-toggle="tab" role="tab" data-next-tab="tab--race-adsb" href="#race-mayor" aria-controls="race-mayor" aria-selected="false">
+                  <a class="nav-link" id="tab--race-mayor" data-toggle="tab" role="tab" data-next-tab="tab--race-school" href="#race-mayor" aria-controls="race-mayor" aria-selected="false">
                     Mayor's Race by Ward
-                  </a>
-                </li>
-                <li class="nav-item nav-item--no-link" role="presentation">
-                  <span class="nav-link strong">
-                    School Board Trustees
-                  </span>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="tab--race-adsb" data-toggle="tab" role="tab" data-next-tab="tab--race-school" href="#race-adsb" aria-controls="race-adsb" aria-selected="false">
-                    Algoma District School Board
                   </a>
                 </li>
                 <li class="nav-item" role="presentation">
                   <a class="nav-link" id="tab--race-school" data-toggle="tab" role="tab" data-next-tab="tab--race-council" href="#race-school" aria-controls="race-school" aria-selected="false">
-                    All Other School Boards
+                    School Board Trustees
                   </a>
                 </li>
               </ul>
@@ -105,7 +95,7 @@
           <main class="col-12 col-md-8 col-lg-9 pt-2">
             <div class="tab-content" style="min-height:100vh" aria-live="polite" aria-atomic="true" aria-relevant="all">
               <article class="tab-pane fade show active" id="race-council" name="race-council" role="tabpanel" aria-labelledby="tab--race-council">
-                <h1 class="border-bottom pb-2 mb-2">City Council</h1>
+                <h1 class="border-bottom pb-2 mb-2 h3">City Council</h1>
                 <div class="row justify-content-center">
                   <div class="col-lg-6 col-xl-4" role="presentation">
                     <figure class="card raceContainer mb-2" data-race="mayor"></figure>
@@ -128,7 +118,7 @@
                 </div>
               </article>
               <article class="tab-pane fade" id="race-mayor" name="race-mayor" role="tabpanel" aria-labelledby="tab--race-mayor">
-                <h1 class="border-bottom pb-2 mb-2">Mayor's Race</h1>
+                <h1 class="border-bottom pb-2 mb-2 h3">Mayor's Race</h1>
                 <figure class="card raceContainer mb-2" data-race="mayor"></figure>
                 <div class="row justify-content-center">
                   <div class="col-lg-6 col-xl-4" role="presentation">
@@ -148,35 +138,35 @@
                   </div>
                 </div>
               </article>
-              <article class="tab-pane fade" id="race-adsb" name="race-adsb" role="tabpanel" aria-labelledby="tab--race-adsb">
-                <h1 class="border-bottom pb-3 mb-3">Algoma District School Board</h1>
+              <article class="tab-pane fade" id="race-school" name="race-school" role="tabpanel" aria-labelledby="tab--race-school">
+                <h1 class="border-bottom pb-2 mb-2 h3">School Board Trustees</h1>
                 <div class="row justify-content-center">
                   <div class="col-lg-6 col-xl-4" role="presentation">
-                    <figure class="card raceContainer mb-2" data-race="adsb_ward1"></figure>
+                    <figure class="card raceContainer raceContainer--school mb-2" data-race="adsb_ward1"></figure>
                   </div>
                   <div class="col-lg-6 col-xl-4" role="presentation">
-                    <figure class="card raceContainer mb-2" data-race="adsb_ward2"></figure>
+                    <figure class="card raceContainer raceContainer--school mb-2" data-race="adsb_ward2"></figure>
                   </div>
                   <div class="col-lg-6 col-xl-4" role="presentation">
-                    <figure class="card raceContainer mb-2" data-race="adsb_ward3"></figure>
+                    <figure class="card raceContainer raceContainer--school mb-2" data-race="adsb_ward3"></figure>
                   </div>
                   <div class="col-lg-6 col-xl-4" role="presentation">
-                    <figure class="card raceContainer mb-2" data-race="adsb_ward4"></figure>
+                    <figure class="card raceContainer raceContainer--school mb-2" data-race="adsb_ward4"></figure>
                   </div>
                   <div class="col-lg-6 col-xl-4" role="presentation">
-                    <figure class="card raceContainer mb-2" data-race="adsb_ward5"></figure>
+                    <figure class="card raceContainer raceContainer--school mb-2" data-race="adsb_ward5"></figure>
+                  </div>
+                  <div class="col-lg-6 col-xl-4" role="presentation">
+                    <figure class="card raceContainer raceContainer--school mb-2" data-race="adsb_unorganized"></figure>
                   </div>
                 </div>
-              </article>
-              <article class="tab-pane fade" id="race-school" name="race-school" role="tabpanel" aria-labelledby="tab--race-school">
-                <h1 class="border-bottom pb-3 mb-3">Other School Boards</h1>
                 <div class="row justify-content-center">
                   <div class="col-lg-6 col-xl-4" role="presentation">
-                    <figure class="card raceContainer mb-2" data-race="hscdsb"></figure>
+                    <figure class="card raceContainer raceContainer--school mb-2" data-race="hscdsb"></figure>
                   </div>
                   <div class="col-lg-6 col-xl-4" role="presentation">
-                    <figure class="card raceContainer mb-2" data-race="cspgno"></figure>
-                    <figure class="card raceContainer mb-2" data-race="cscno"></figure>
+                    <figure class="card raceContainer raceContainer--school mb-2" data-race="cspgno"></figure>
+                    <figure class="card raceContainer raceContainer--school mb-2" data-race="cscno"></figure>
                   </div>
                 </div>
               </article>

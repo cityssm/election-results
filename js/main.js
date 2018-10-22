@@ -28,11 +28,12 @@ $(document).ready(function() {
       const raceKey = raceContainerEle.getAttribute("data-race");
       const raceJSON = resultsJSON.races[raceKey];
 
+      const raceIsSchool = raceContainerEle.classList.contains("raceContainer--school");
       const raceIsAcclaimed = raceJSON.positionsAvailable === raceJSON.results.length;
       const allPollsReported = raceIsAcclaimed || raceJSON.pollsTotal === raceJSON.pollsReporting;
 
       let cardHTML = "<figcaption class=\"card-body py-2\" role=\"presentation\">" +
-        "<h2 class=\"card-title text-center h4 mb-0\" id=\"" + tableID + "_label\"" + (raceKey === "cspgno" || raceKey === "cscno" ? " lang=\"fr\"" : "") + ">" +
+        "<h2 class=\"card-title text-center mb-0 " + (raceIsSchool ? "h6" : "h5") + "\" id=\"" + tableID + "_label\"" + (raceKey === "cspgno" || raceKey === "cscno" ? " lang=\"fr\"" : "") + ">" +
         raceJSON.raceTitle +
         "</h2>" +
         "</figcaption>";

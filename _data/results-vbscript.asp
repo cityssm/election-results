@@ -11,8 +11,9 @@
   ward3_down = false
   ward4_down = false
   ward5_down = false
+  unorganized_down = false
 
-  city_down = cbool(ward1_down or ward2_down or ward3_down or word4_down or ward5_down)
+  city_down = cbool(ward1_down or ward2_down or ward3_down or ward4_down or ward5_down)
 
   ' number of polls'
   ' note that 3 additional polls are added to account for advanced polling'
@@ -25,6 +26,10 @@
 
   city_polls = ward1_polls + ward2_polls + ward3_polls + ward4_polls + ward5_polls
 
+  ' 2 additional polls added for outlying areas'
+  ' Sault North, Prince'
+  adsb_unorganized_polls = 2
+
   ' 6 additional polls added for outlying areas'
   ' Sault North, Laird, Tarbutt, Johnson, MacDonald Meredith, Prince'
   hscdsb_polls = city_polls + 6
@@ -34,8 +39,7 @@
   cspgno_polls = city_polls + 2
 
   ' number of voters'
-
-  city_voters = 55000
+  city_voters = 55261
 
   '---'
 

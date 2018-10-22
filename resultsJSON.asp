@@ -368,6 +368,24 @@
         <% end if %>
       ]
     },
+    "adsb_unorganized": {
+      "raceTitle": "Algoma District School Board - Unorganized",
+      "pollsTotal": <%=adsb_unorganized_polls %>,
+      "pollsReporting": <%=ifblank(dataFileB.Item("B6R"), -1) %>,
+      "positionsAvailable": 1,
+      "isDown": <%=lcase(unorganized_down) %>,
+      "results": [
+        <% if (not unorganized_down) then %>
+        {
+          "candidate": "<%=replace(dataFileB.Item("B6C01"), """", "\""") %>",
+          "votes": <%=ifblank(dataFileB.Item("B6V01"), -1) %>
+        }, {
+          "candidate": "<%=replace(dataFileB.Item("B6C02"), """", "\""") %>",
+          "votes": <%=ifblank(dataFileB.Item("B6V02"), -1) %>
+        }
+        <% end if %>
+      ]
+    },
     "hscdsb": {
       "raceTitle": "Huron-Superior Catholic School Board",
       "pollsTotal": <%=hscdsb_polls %>,
