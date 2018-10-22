@@ -7,7 +7,6 @@ M1C03|     Provenzano|
 M1V03|    0          |
 M1C04|           Ring|
 M1V04|    0          |
-
 M2C01|       Johnston|
 M2V01|    0          |
 M2C02|     Martinovic|
@@ -16,7 +15,6 @@ M2C03|     Provenzano|
 M2V03|    0          |
 M2C04|           Ring|
 M2V04|    0          |
-
 M3C01|       Johnston|
 M3V01|    0          |
 M3C02|     Martinovic|
@@ -25,7 +23,6 @@ M3C03|     Provenzano|
 M3V03|    0          |
 M3C04|           Ring|
 M3V04|    0          |
-
 M4C01|       Johnston|
 M4V01|    0          |
 M4C02|     Martinovic|
@@ -34,7 +31,6 @@ M4C03|     Provenzano|
 M4V03|    0          |
 M4C04|           Ring|
 M4V04|    0          |
-
 M5C01|       Johnston|
 M5V01|    0          |
 M5C02|     Martinovic|
@@ -43,27 +39,18 @@ M5C03|     Provenzano|
 M5V03|    0          |
 M5C04|           Ring|
 M5V04|    0          |
-
-M1R  |    0          |
-M2R  |    0          |
-M3R  |    0          |
-M4R  |    0          |
-M5R  |    0          |
-
-MC1  |       Johnston|
+MC1  |  Johnston     |
 MV1  |    0          |
-MC2  |     Martinovic|
+MC2  |Martinovic     |
 MV2  |    0          |
-MC3  |     Provenzano|
+MC3  |Provenzano     |
 MV3  |    0          |
-MC4  |           Ring|
+MC4  |      Ring     |
 MV4  |    0          |
-
 VSC  |    0          |
-VSP  |  0.00         |
+VSP  |   .00         |
 VHF  |    0          |
-VHP  |  0.00         |
-
+VHP  |   .00         |
 W1C01|      Christian|
 W1V01|    0          |
 W1C02|  Hollingsworth|
@@ -74,7 +61,6 @@ W1C04|       Mitchell|
 W1V04|    0          |
 W1C05|         Pearce|
 W1V05|    0          |
-
 W2C01|        Cistaro|
 W2V01|    0          |
 W2C02|         Dufour|
@@ -89,7 +75,6 @@ W2C06|   Vezeau-Allen|
 W2V06|    0          |
 W2C07|          Young|
 W2V07|    0          |
-
 W3C01|          Bruno|
 W3V01|    0          |
 W3C02|      Hilsinger|
@@ -100,7 +85,6 @@ W3C04|     Hutchinson|
 W3V04|    0          |
 W3C05|      Shoemaker|
 W3V05|    0          |
-
 W4C01|          Bruni|
 W4V01|    0          |
 W4C02|          Marsh|
@@ -109,7 +93,6 @@ W4C03|       McCleary|
 W4V03|    0          |
 W4C04|           Niro|
 W4V04|    0          |
-
 W5C01|           Fata|
 W5V01|    0          |
 W5C02|          Gardi|
@@ -118,39 +101,31 @@ W5C03|    Grandinetti|
 W5V03|    0          |
 W5C04|          Scott|
 W5V04|    0          |
-
-W1R  |    0          |
-W2R  |    0          |
-W3R  |    0          |
-W4R  |    0          |
-W5R  |    0          |
-W6R  |    0          |
-
 B1C01|          Sarlo|
 B1V01|    0          |
-
 B2C01|       Lidstone|
 B2V01|    0          |
 B2C02|          Myers|
 B2V02|    0          |
-
 B3C01|         Bowman|
 B3V01|    0          |
 B3C02|          Morin|
 B3V02|    0          |
-
 B4C01|         Murphy|
 B4V01|    0          |
 B4C02|         Thayer|
 B4V02|    0          |
-
 B5C01|        Apostle|
 B5V01|    0          |
 B5C02|        Edwards|
 B5V02|    0          |
-
+B6C01|          Craig|
+B6V01|    0          |
+B6C02|    Evans-Price|
+B6V02|    0          |
 B1R  |    0          |
 B2R  |    0          |
 B3R  |    0          |
 B4R  |    0          |
 B5R  |    0          |
+B6R  |    0          |
