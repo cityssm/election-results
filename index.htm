@@ -45,7 +45,7 @@
       <div class="container-fluid" role="presentation">
         <div class="row" role="presentation">
           <div class="col-12 col-md-4 col-lg-3" role="presentation">
-            <header class="border-bottom py-2">
+            <header class="py-2">
               <div class="row justify-content-between align-items-end">
                 <h1 class="h4 col-auto">
                   Sault Ste. Marie<br class="d-none d-md-block" />
@@ -70,7 +70,7 @@
                 </div>
               </div>
             </header>
-            <nav class="d-none d-md-block sticky-top pt-2" id="tabsContainer" role="presentation">
+            <nav class="d-none d-md-block pt-2" id="tabsContainer" role="presentation">
               <ul class="nav nav-pills flex-column" role="tablist" aria-orientation="vertical">
                 <li class="nav-item" role="presentation">
                   <a class="nav-link active" id="tab--race-council" data-toggle="tab" data-next-tab="tab--race-mayor" role="tab" href="#race-council" aria-controls="race-council" aria-selected="true">
@@ -94,7 +94,12 @@
 
             <div class="card">
               <div class="card-body">
-                <h1 class="card-title h6">Voters Heard From</h1>
+                <h1 class="card-title h6">Polls Reporting</h1>
+                <div class="progress">
+                  <div id="progress-bar--pollsReporting_sum" class="progress-bar"></div>
+                </div>
+
+                <h1 class="card-title h6 mt-3">Voters Heard From</h1>
                 <div class="progress">
                   <div id="progress-bar--votersHeardFrom" class="progress-bar"></div>
                 </div>
