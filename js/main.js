@@ -32,7 +32,7 @@ $(document).ready(function() {
       const allPollsReported = raceIsAcclaimed || raceJSON.pollsTotal === raceJSON.pollsReporting;
 
       let cardHTML = "<figcaption class=\"card-body py-2\" role=\"presentation\">" +
-        "<h2 class=\"card-title text-center h3 mb-0\" id=\"" + tableID + "_label\"" + (raceKey === "cspgno" || raceKey === "cscno" ? " lang=\"fr\"" : "") + ">" +
+        "<h2 class=\"card-title text-center h4 mb-0\" id=\"" + tableID + "_label\"" + (raceKey === "cspgno" || raceKey === "cscno" ? " lang=\"fr\"" : "") + ">" +
         raceJSON.raceTitle +
         "</h2>" +
         "</figcaption>";
@@ -66,7 +66,7 @@ $(document).ready(function() {
           "</tbody>" +
           "</table>" +
           (raceIsAcclaimed ? "" :
-            "<div class=\"card-footer text-center\" id=\"" + tableID + "_polls\">" +
+            "<div class=\"card-footer py-1 text-center\" id=\"" + tableID + "_polls\">" +
             "<small class=\"text-secondary\">" +
             raceJSON.pollsReporting + " of " + raceJSON.pollsTotal + " polls reporting</small>" +
             "</div>");
