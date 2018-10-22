@@ -21,7 +21,7 @@
   ward1_polls = 49 + 3
   ward2_polls = 41 + 3
   ward3_polls = 42 + 3
-  ward4_polls = 41 + 3
+  ward4_polls = 40 + 3
   ward5_polls = 34 + 3
 
   city_polls = ward1_polls + ward2_polls + ward3_polls + ward4_polls + ward5_polls
