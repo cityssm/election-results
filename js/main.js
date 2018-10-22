@@ -82,10 +82,16 @@ $(document).ready(function() {
         .done(function(json) {
           resultsJSON = json;
 
+          // Update stats
           document.getElementById("lastUpdated").innerHTML = "Last Updated<br />" +
           resultsJSON.lastUpdated +
           (isElectionDay ? "<br /><em class=\"text-muted\">(Refreshing automatically)</em>" : "");
 
+          document.getElementById("progress-bar--votersHeardFrom").style.width = ((json.votersHeardFrom / json.votersTotal) * 100).toString() + "%";
+          document.getElementById("progress--votersHeardFrom").innerText = json.votersHeardFrom;
+          document.getElementById("progress--votersTotal").innerText = json.votersTotal;
+
+          // Update races
           let index;
           for (index = 0; index < raceContainerEles.length; index += 1) {
             fn_updateRaceContainer(raceContainerEles[index]);
