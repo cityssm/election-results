@@ -1,29 +1,29 @@
 
-S1R  |    0          |
+S1R  |  227          |
 S1P  |  227          |
 SC01 |         Caputo|
-SV01 |    0          |
+SV01 | 4045          |
 SC02 | Cassidy-Amadio|
-SV02 |    0          |
-SC03 |     D'Agostino|
-SV03 |    0          |
-SC04 |          Duffy|
-SV04 |    0          |
-SC05 |          Frair|
-SV05 |    0          |
-SC06 |      Mansfield|
-SV06 |    0          |
-SC07 |         Ruscio|
-SV07 |    0          |
-SC08 |     Trembinski|
-SV08 |    0          |
+SV02 | 4041          |
+SC03 |     Trembinski|
+SV03 | 3374          |
+SC04 |     D'Agostino|
+SV04 | 3113          |
+SC05 |          Turco|
+SV05 | 3086          |
+SC06 |         Ruscio|
+SV06 | 3046          |
+SC07 |          Duffy|
+SV07 | 2581          |
+SC08 |      Mansfield|
+SV08 | 1913          |
 SC09 |        Tridico|
-SV09 |    0          |
-SC10 |          Turco|
-SV10 |    0          |
-F2R  |    0          |
+SV09 | 1605          |
+SC10 |          Frair|
+SV10 | 1409          |
+F2R  |  223          |
 F2P  |  223          |
-FC01 |       Lofstrom|
-FV01 |    0          |
-FC02 |        Primeau|
-FV02 |    0          |
+FC01 |        Primeau|
+FV01 |  250          |
+FC02 |       Lofstrom|
+FV02 |  179          |
