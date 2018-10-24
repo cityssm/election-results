@@ -98,9 +98,11 @@
 .markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
 .markdown-preview[data-use-github-style] code { color: inherit; }
 .markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.markdown-preview pre.editor-colors { user-select: auto; }
 .scrollbars-visible-always .markdown-preview pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
 .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .horizontal-scrollbar { visibility: visible; }
 .markdown-preview .task-list-item-checkbox { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.markdown-preview ul label { vertical-align: top; }
 .bracket-matcher .region {
   border-bottom: 1px dotted lime;
   position: absolute;
@@ -676,9 +678,7 @@ pre.editor-colors[mini] .scroll-view {
 }
 </style>
   </head>
-  <body class='markdown-preview' data-use-github-style><p><em>The following information is for developers who wish to build their own election results website.
-If you are just looking to view the election results as they come in,
-visit <a href="https://voter.saultstemarie.ca/results/">the City's election results website</a>.</em></p>
+  <body class='markdown-preview' data-use-github-style><p><em>The following information is for developers who wish to build their own election results website.</em></p>
 <h1 id="election-results-json-file">Election Results JSON File</h1>
 <p>On election night, our in-house election system will regularly export
 <em>unofficial election results</em> as flat data files to our web servers.

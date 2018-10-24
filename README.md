@@ -3,7 +3,7 @@
 The City's page for unofficial election results for the municipal election on
 Monday, October 22nd.
 
-[The City's Results Page](https://voter.saultstemarie.ca/results/)
+See the [Official Results](http://saultstemarie.ca/City-Hall/City-Departments/Corporate-Services/City-Clerk/Municipal-Election/2018-Election/2018-Municipal-Election/2018-Election-Official-Results.aspx).
 
 ## Think you can do better?
 

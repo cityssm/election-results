@@ -1,6 +1,4 @@
-*The following information is for developers who wish to build their own election results website.
-If you are just looking to view the election results as they come in,
-visit [the City's election results website](https://voter.saultstemarie.ca/results/).*
+*The following information is for developers who wish to build their own election results website.*
 
 # Election Results JSON File
 
