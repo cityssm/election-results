@@ -26,11 +26,7 @@ We do ask that you follow some usage guidelines.
 
 Real-time election night results can be found at the following address.
 
-**HTTP**<br />
-http://voter.saultstemarie.ca/results/resultsJSON.asp
-
-**HTTPS**<br />
-https://voter.saultstemarie.ca/results/resultsJSON.asp
+**Live links no longer active**
 
 ## Understanding the JSON
 
