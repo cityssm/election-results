@@ -1,8 +1,8 @@
 
 M1C01|     Provenzano|
-M1V01| 4219          |
+M1V01| 4220          |
 M1C02|           Ring|
-M1V02| 1232          |
+M1V02| 1233          |
 M1C03|       Johnston|
 M1V03|  240          |
 M1C04|     Martinovic|
@@ -12,17 +12,17 @@ M2V01| 3090          |
 M2C02|           Ring|
 M2V02|  903          |
 M2C03|       Johnston|
-M2V03|  281          |
+M2V03|  282          |
 M2C04|     Martinovic|
 M2V04|   41          |
 M3C01|     Provenzano|
-M3V01| 3509          |
+M3V01| 3511          |
 M3C02|           Ring|
 M3V02| 1124          |
 M3C03|       Johnston|
 M3V03|  236          |
 M3C04|     Martinovic|
-M3V04|   44          |
+M3V04|   46          |
 M4C01|     Provenzano|
 M4V01| 2460          |
 M4C02|           Ring|
@@ -44,23 +44,22 @@ M2R  |   44          |
 M3R  |   45          |
 M4R  |   43          |
 M5R  |   37          |
-M6R  |    0          |
 MC1  |Provenzano     |
-MV1  |15300          |
+MV1  |15303          |
 MC2  |      Ring     |
-MV2  | 5142          |
+MV2  | 5143          |
 MC3  |  Johnston     |
-MV3  | 1177          |
+MV3  | 1178          |
 MC4  |Martinovic     |
-MV4  |  190          |
+MV4  |  192          |
 VSC  |  221          |
 VSP  |100.00         |
-VHF  |22262          |
-VHP  | 40.29         |
+VHF  |22269          |
+VHP  | 40.30         |
 W1C01|      Christian|
 W1V01| 3234          |
 W1C02|  Hollingsworth|
-W1V02| 2808          |
+W1V02| 2809          |
 W1C03|       Mitchell|
 W1V03| 2406          |
 W1C04|McCleaveKennedy|
@@ -68,11 +67,11 @@ W1V04| 1385          |
 W1C05|         Pearce|
 W1V05|  238          |
 W2C01|         Dufour|
-W2V01| 2407          |
+W2V01| 2410          |
 W2C02|   Vezeau-Allen|
 W2V02| 1464          |
 W2C03|          Turco|
-W2V03| 1306          |
+W2V03| 1307          |
 W2C04|        Cistaro|
 W2V04| 1090          |
 W2C05|          Young|
@@ -82,15 +81,15 @@ W2V06|  220          |
 W2C07|         Hallin|
 W2V07|  213          |
 W3C01|      Shoemaker|
-W3V01| 2827          |
+W3V01| 2829          |
 W3C02|      Hilsinger|
-W3V02| 1955          |
+W3V02| 1957          |
 W3C03|          Bruno|
-W3V03| 1920          |
+W3V03| 1921          |
 W3C04|     Hutchinson|
-W3V04| 1098          |
+W3V04| 1099          |
 W3C05|       Hupponen|
-W3V05|  623          |
+W3V05|  625          |
 W4C01|           Niro|
 W4V01| 2016          |
 W4C02|          Bruni|
@@ -100,11 +99,11 @@ W4V03| 1387          |
 W4C04|          Marsh|
 W4V04|  699          |
 W5C01|          Scott|
-W5V01| 1464          |
+W5V01| 1465          |
 W5C02|          Gardi|
-W5V02| 1424          |
+W5V02| 1426          |
 W5C03|    Grandinetti|
-W5V03| 1396          |
+W5V03| 1399          |
 W5C04|           Fata|
 W5V04|  967          |
 W1R  |   52          |
@@ -112,7 +111,6 @@ W2R  |   44          |
 W3R  |   45          |
 W4R  |   43          |
 W5R  |   37          |
-W6R  |    0          |
 B1C01|          Sarlo|
 B1V01|    0          |
 B2C01|          Myers|
@@ -120,11 +118,11 @@ B2V01| 1797          |
 B2C02|       Lidstone|
 B2V02| 1293          |
 B3C01|         Bowman|
-B3V01| 1526          |
+B3V01| 1527          |
 B3C02|          Morin|
-B3V02| 1299          |
+B3V02| 1301          |
 B4C01|         Thayer|
-B4V01| 1199          |
+B4V01| 1205          |
 B4C02|         Murphy|
 B4V02|  616          |
 B5C01|        Edwards|
