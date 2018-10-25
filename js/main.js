@@ -78,7 +78,7 @@ $(document).ready(function() {
 
     const fn_getResults = function() {
 
-      $.get("resultsJSON.asp", {}, "json")
+      $.get("resultsJSON-static.json", {}, "json")
         .done(function(json) {
           resultsJSON = json;
 
