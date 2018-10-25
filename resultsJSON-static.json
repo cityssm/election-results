@@ -1,0 +1,446 @@
+{
+  "lastUpdated": "10/25/2018 10:16:10 AM",
+  "votersTotal": 55261,
+  "votersHeardFrom": 22269,
+  "races": {
+
+    "mayor": {
+      "raceTitle": "Mayor - City Wide",
+      "pollsTotal": 221,
+      "pollsReporting": 221,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Provenzano",
+          "votes": 15303
+        }, {
+          "candidate": "Ring",
+          "votes": 5143
+        }, {
+          "candidate": "Johnston",
+          "votes": 1178
+        }, {
+          "candidate": "Martinovic",
+          "votes": 192
+        }
+      ]
+    },
+
+    "mayor_ward1": {
+      "raceTitle": "Mayor - Ward 1",
+      "pollsTotal": 52,
+      "pollsReporting": 52,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Provenzano",
+          "votes": 4220
+        }, {
+          "candidate": "Ring",
+          "votes": 1233
+        }, {
+          "candidate": "Johnston",
+          "votes": 240
+        }, {
+          "candidate": "Martinovic",
+          "votes": 36
+        }
+      ]
+    },
+
+    "mayor_ward2": {
+      "raceTitle": "Mayor - Ward 2",
+      "pollsTotal": 44,
+      "pollsReporting": 44,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Provenzano",
+          "votes": 3090
+        }, {
+          "candidate": "Ring",
+          "votes": 903
+        }, {
+          "candidate": "Johnston",
+          "votes": 282
+        }, {
+          "candidate": "Martinovic",
+          "votes": 41
+        }
+      ]
+    },
+
+    "mayor_ward3": {
+      "raceTitle": "Mayor - Ward 3",
+      "pollsTotal": 45,
+      "pollsReporting": 45,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Provenzano",
+          "votes": 3511
+        }, {
+          "candidate": "Ring",
+          "votes": 1124
+        }, {
+          "candidate": "Johnston",
+          "votes": 236
+        }, {
+          "candidate": "Martinovic",
+          "votes": 46
+        }
+      ]
+    },
+
+    "mayor_ward4": {
+      "raceTitle": "Mayor - Ward 4",
+      "pollsTotal": 43,
+      "pollsReporting": 43,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Provenzano",
+          "votes": 2460
+        }, {
+          "candidate": "Ring",
+          "votes": 941
+        }, {
+          "candidate": "Johnston",
+          "votes": 227
+        }, {
+          "candidate": "Martinovic",
+          "votes": 43
+        }
+      ]
+    },
+
+    "mayor_ward5": {
+      "raceTitle": "Mayor - Ward 5",
+      "pollsTotal": 37,
+      "pollsReporting": 37,
+      "positionsAvailable": 0,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Provenzano",
+          "votes": 2022
+        }, {
+          "candidate": "Ring",
+          "votes": 942
+        }, {
+          "candidate": "Johnston",
+          "votes": 193
+        }, {
+          "candidate": "Martinovic",
+          "votes": 26
+        }
+      ]
+    },
+
+    "ward1": {
+      "raceTitle": "Councillor - Ward 1",
+      "pollsTotal": 52,
+      "pollsReporting": 52,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Christian",
+          "votes": 3234
+        }, {
+          "candidate": "Hollingsworth",
+          "votes": 2809
+        }, {
+          "candidate": "Mitchell",
+          "votes": 2406
+        }, {
+          "candidate": "McCleave-Kennedy",
+          "votes": 1385
+        }, {
+          "candidate": "Pearce",
+          "votes": 238
+        }
+      ]
+    },
+
+    "ward2": {
+      "raceTitle": "Councillor - Ward 2",
+      "pollsTotal": 44,
+      "pollsReporting": 44,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Dufour",
+          "votes": 2410
+        }, {
+          "candidate": "Vezeau-Allen",
+          "votes": 1464
+        }, {
+          "candidate": "Turco",
+          "votes": 1307
+        }, {
+          "candidate": "Cistaro",
+          "votes": 1090
+        }, {
+          "candidate": "Young",
+          "votes": 627
+        }, {
+          "candidate": "Thyne",
+          "votes": 220
+        }, {
+          "candidate": "Hallin",
+          "votes": 213
+        }
+      ]
+    },
+
+    "ward3": {
+      "raceTitle": "Councillor - Ward 3",
+      "pollsTotal": 45,
+      "pollsReporting": 45,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Shoemaker",
+          "votes": 2829
+        }, {
+          "candidate": "Hilsinger",
+          "votes": 1957
+        }, {
+          "candidate": "Bruno",
+          "votes": 1921
+        }, {
+          "candidate": "Hutchinson",
+          "votes": 1099
+        }, {
+          "candidate": "Hupponen",
+          "votes": 625
+        }
+      ]
+    },
+
+    "ward4": {
+      "raceTitle": "Councillor - Ward 4",
+      "pollsTotal": 43,
+      "pollsReporting": 43,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Niro",
+          "votes": 2016
+        }, {
+          "candidate": "Bruni",
+          "votes": 1973
+        }, {
+          "candidate": "McCleary",
+          "votes": 1387
+        }, {
+          "candidate": "Marsh",
+          "votes": 699
+        }
+      ]
+    },
+
+    "ward5": {
+      "raceTitle": "Councillor - Ward 5",
+      "pollsTotal": 37,
+      "pollsReporting": 37,
+      "positionsAvailable": 2,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Scott",
+          "votes": 1465
+        }, {
+          "candidate": "Gardi",
+          "votes": 1426
+        }, {
+          "candidate": "Grandinetti",
+          "votes": 1399
+        }, {
+          "candidate": "Fata",
+          "votes": 967
+        }
+      ]
+    },
+
+    "adsb_ward1": {
+      "raceTitle": "Algoma District School Board - Ward 1",
+      "pollsTotal": 52,
+      "pollsReporting": 0,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Sarlo",
+          "votes": 0
+        }
+      ]
+    },
+
+    "adsb_ward2": {
+      "raceTitle": "Algoma District School Board - Ward 2",
+      "pollsTotal": 44,
+      "pollsReporting": 44,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Myers",
+          "votes": 1797
+        }, {
+          "candidate": "Lidstone",
+          "votes": 1293
+        }
+      ]
+    },
+
+    "adsb_ward3": {
+      "raceTitle": "Algoma District School Board - Ward 3",
+      "pollsTotal": 45,
+      "pollsReporting": 45,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Bowman",
+          "votes": 1527
+        }, {
+          "candidate": "Morin",
+          "votes": 1301
+        }
+      ]
+    },
+
+    "adsb_ward4": {
+      "raceTitle": "Algoma District School Board - Ward 4",
+      "pollsTotal": 43,
+      "pollsReporting": 43,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Thayer",
+          "votes": 1205
+        }, {
+          "candidate": "Murphy",
+          "votes": 616
+        }
+      ]
+    },
+
+    "adsb_ward5": {
+      "raceTitle": "Algoma District School Board - Ward 5",
+      "pollsTotal": 37,
+      "pollsReporting": 37,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Edwards",
+          "votes": 1016
+        }, {
+          "candidate": "Apostle",
+          "votes": 894
+        }
+      ]
+    },
+
+    "adsb_unorganized": {
+      "raceTitle": "Algoma District School Board - Unorganized",
+      "pollsTotal": 2,
+      "pollsReporting": 2,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Evans-Price",
+          "votes": 262
+        }, {
+          "candidate": "Craig",
+          "votes": 172
+        }
+      ]
+    },
+
+    "hscdsb": {
+      "raceTitle": "Huron-Superior Catholic School Board",
+      "pollsTotal": 227,
+      "pollsReporting": 227,
+      "positionsAvailable": 6,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Caputo",
+          "votes": 4046
+        }, {
+          "candidate": "Cassidy-Amadio",
+          "votes": 4042
+        }, {
+          "candidate": "Trembinski",
+          "votes": 3375
+        }, {
+          "candidate": "D'Agostino",
+          "votes": 3114
+        }, {
+          "candidate": "Turco",
+          "votes": 3086
+        }, {
+          "candidate": "Ruscio",
+          "votes": 3046
+        }, {
+          "candidate": "Duffy",
+          "votes": 2582
+        }, {
+          "candidate": "Mansfield",
+          "votes": 1913
+        }, {
+          "candidate": "Tridico",
+          "votes": 1606
+        }, {
+          "candidate": "Frair",
+          "votes": 1409
+        }
+      ]
+    },
+
+    "cscno": {
+      "raceTitle": "Conseil scolaire catholique du Nouvel-Ontario",
+      "pollsTotal": 221,
+      "pollsReporting": 0,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Salituri",
+          "votes": 0
+        }
+      ]
+    },
+
+    "cspgno": {
+      "raceTitle": "Conseil scolaire public du Grand Nord de L'Ontario",
+      "pollsTotal": 223,
+      "pollsReporting": 223,
+      "positionsAvailable": 1,
+      "isDown": false,
+      "results": [
+        {
+          "candidate": "Primeau",
+          "votes": 250
+        }, {
+          "candidate": "Lofstrom",
+          "votes": 179
+        }
+      ]
+    }
+  }
+}
